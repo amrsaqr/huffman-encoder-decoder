@@ -1,0 +1,3 @@
+add_library(huffman_encoder_decoder_lib args.cpp)
+
+target_include_directories(huffman_encoder_decoder_lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
